@@ -1,0 +1,7 @@
+
+DB_PATH = "../Database/Reading.db"
+
+TARGET_PROCESS_NAME = "zotero.exe"
+
+CHECK_INTERVAL_SECONDS = 5
+HEATMAP_REFRESH_MINUTES = 1

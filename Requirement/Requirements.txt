@@ -1,0 +1,4 @@
+# pip install -r ../../Requirement/Requirements.txt
+psutil>=5.9.0
+pywin32>=306
+plotly>=5.0.0
