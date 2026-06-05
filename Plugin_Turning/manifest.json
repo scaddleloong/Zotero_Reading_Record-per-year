@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Reading Tracker V2",
+  "version": "2.0",
+  "description": "Zotero Reading Tracker with heatmap",
+  "applications": {
+    "zotero": {
+      "id": "reading-tracker@zotero",
+      "strict_min_version": "9.0",
+      "strict_max_version": "9.*",
+      "update_url": "https://localhost/"
+    }
+  }
+}
