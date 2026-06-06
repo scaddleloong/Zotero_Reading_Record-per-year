@@ -50,7 +50,7 @@ function addMenuToWindow(win, rootURI) {
         menuitem.setAttribute("id", "readingTrackerMenu");
         menuitem.setAttribute("label", "Open Heatmap");
         menuitem.addEventListener("command", () => {
-            openHeatmapWindow(win, rootURI);
+            openHeatmapWindow();
         });
 
         toolsMenu.appendChild(menuitem);
