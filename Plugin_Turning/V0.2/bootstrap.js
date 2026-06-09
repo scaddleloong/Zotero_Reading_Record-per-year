@@ -48,7 +48,7 @@ async function startup({ id, version, rootURI }) {
         } catch (e) {
             Zotero.debug("init error: " + e);
         }
-    }, 1500);
+    }, 300000);
 }
 
 function shutdown() {
