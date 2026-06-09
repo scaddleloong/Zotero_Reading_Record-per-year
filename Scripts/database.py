@@ -1,3 +1,10 @@
+# Annotation_Information_Start --------------------------------------------
+
+# Author: scaddleloong@gmail.com
+# Date: 2026/06/03, 07: 26, PM
+# Store Data in .db
+
+# Annotation_Information_End ----------------------------------------------
 
 import sqlite3
 from config import DB_PATH

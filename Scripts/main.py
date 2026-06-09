@@ -1,10 +1,16 @@
+# Annotation_Information_Start --------------------------------------------
+
+# Author: scaddleloong@gmail.com
+# Date: 2026/06/03, 07: 26, PM
+# monitor zotero adn output heatmap.html
+
+# Annotation_Information_End ----------------------------------------------
 
 import datetime as dt
 import time
 import psutil
 import win32gui
 import win32process
-
 from config import (
     TARGET_PROCESS_NAME,
     CHECK_INTERVAL_SECONDS,

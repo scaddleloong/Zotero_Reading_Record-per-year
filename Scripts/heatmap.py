@@ -1,6 +1,13 @@
+# Annotation_Information_Start --------------------------------------------
+
+# Author: scaddleloong@gmail.com
+# Date: 2026/06/03, 07: 26, PM
+# Create Heatmap.html
+
+# Annotation_Information_End ----------------------------------------------
+
 import datetime as dt
 import plotly.graph_objects as go
-
 from database import load_all
 
 current_year = dt.date.today().year
@@ -12,41 +19,24 @@ def generate_heatmap():
     if not rows:
         return
 
-    # =========================
-    # 1. 固定 2026 年
-    # =========================
+    today = dt.date.today()
+    current_year = today.year
+    start_date = dt.date(current_year, 1, 1)
+    end_date = dt.date(current_year, 12, 31)
 
-    today = dt.date.today()  # 获取今天日期
-    current_year = today.year  # 提取当前年份
-    start_date = dt.date(current_year, 1, 1)  # 当年 1月1日
-    end_date = dt.date(current_year, 12, 31)  # 当年 12月31日
-
-    # =========================
-    # 2. 数据
-    # =========================
     data = {
         dt.datetime.strptime(d, "%Y-%m-%d").date(): s / 60
         for d, s in rows
     }
 
-    # =========================
-    # 3. 找到“周一对齐起点”
-    # =========================
-    # 让 2026-01-01 所在周从周一开始
     anchor = start_date - dt.timedelta(days=start_date.weekday())
 
     total_days = (end_date - anchor).days + 1
     total_weeks = (total_days // 7) + 1
 
-    # =========================
-    # 4. heatmap matrix
-    # =========================
     z = [[0 for _ in range(total_weeks)] for _ in range(7)]
     text = [["" for _ in range(total_weeks)] for _ in range(7)]
 
-    # =========================
-    # 5. 逐日填充（关键）
-    # =========================
     current = start_date
     while current <= end_date:
 
@@ -61,12 +51,8 @@ def generate_heatmap():
             f"{current}<br>"
             f"Reading Time: {minutes:.1f} minutes"
         )
-
         current += dt.timedelta(days=1)
 
-    # =========================
-    # 6. 月份标记（可选）
-    # =========================
     month_positions = []
     month_labels = []
 
@@ -78,9 +64,6 @@ def generate_heatmap():
             month_labels.append(current.strftime("%Y-%m"))
         current += dt.timedelta(days=1)
 
-    # =========================
-    # 7. 画图
-    # =========================
     fig = go.Figure(
         data=go.Heatmap(
             z=z,
