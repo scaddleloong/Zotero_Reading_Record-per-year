@@ -44,6 +44,10 @@ Zotero plugin for automatic reading time tracking and heatmap visualization.
 - Reading intensity per day
 - Aggregated statistics panel
 
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/b0bd5747-4a7f-4b1e-a8c2-9be2b85c3101" />
+
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/9d1e1164-824a-4294-bed3-51080643e313" />
+
 ---
 
 ## Notes
