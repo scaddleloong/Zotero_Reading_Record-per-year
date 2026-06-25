@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Reading Tracker V1.1",
+  "version": "1.1",
+  "description": "Zotero Reading Tracker — multi-language support (10 languages)",
+  "applications": {
+    "zotero": {
+      "id": "reading-tracker@scaddleloong",
+      "strict_min_version": "9.0",
+      "strict_max_version": "9.*",
+      "update_url": "https://localhost/"
+    }
+  }
+}
