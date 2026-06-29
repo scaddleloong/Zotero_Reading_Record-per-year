@@ -1,8 +1,8 @@
 /* Annotation_Information_Start
 
 Author: scaddleloong@gmail.com
-Date: 2026/06/23
-heatmap.js V1.1: _loc() for all UI text, 10-language support
+Date: 2026/06/29
+heatmap.js V1.3: fix weekday-labels alignment with heatmap grid cells
 
 Annotation_Information_End */
 
@@ -261,9 +261,13 @@ body {
     grid-template-rows: repeat(7, 16px);
     gap: 4px;
     margin-right: 10px;
+    margin-top: 18px;
     font-size: 11px;
     color: #666;
     width: 30px;
+}
+.weekday-labels div {
+    line-height: 16px;
 }
 #heatmap {
     display: grid;

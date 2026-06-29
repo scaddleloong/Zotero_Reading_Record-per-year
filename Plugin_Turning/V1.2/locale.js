@@ -1,8 +1,8 @@
 /* Annotation_Information_Start
 
 Author: scaddleloong@gmail.com
-Date: 2026/06/25
-locale.js V1.1: Multi-language support — 10 languages
+Date: 2026/06/29
+locale.js V1.3: add missing heatmap.detail.minutes key for all languages
 
 Annotation_Information_End */
 
@@ -72,6 +72,7 @@ var _STRINGS = {
         "heatmap.stats.avg": "Average: {0} min/day",
         "heatmap.legend.less": "Less",
         "heatmap.legend.more": "More",
+        "heatmap.detail.minutes": "min",
         "heatmap.hint.click": "Hover over a square to view reading time. Click for daily details.",
         "heatmap.chart.hint": "Hover over chart points for details. Click to view daily reading log.",
         "heatmap.chart.total": "Total: {0} h / {1} annotations",
@@ -128,6 +129,7 @@ var _STRINGS = {
         "heatmap.stats.avg": "日均：{0} 分钟/天",
         "heatmap.legend.less": "少",
         "heatmap.legend.more": "多",
+        "heatmap.detail.minutes": "分钟",
         "heatmap.hint.click": "悬停在格子上查看阅读时长。点击查看每日详情。",
         "heatmap.chart.hint": "悬停在图表点上查看详情。点击查看当日阅读记录。",
         "heatmap.chart.total": "总计：{0} 小时 / {1} 条标注",
@@ -184,6 +186,7 @@ var _STRINGS = {
         "heatmap.stats.avg": "Promedio: {0} min/día",
         "heatmap.legend.less": "Menos",
         "heatmap.legend.more": "Más",
+        "heatmap.detail.minutes": "min",
         "heatmap.hint.click": "Pasa el ratón sobre un cuadrado para ver el tiempo. Haz clic para ver detalles diarios.",
         "heatmap.chart.hint": "Pasa el ratón sobre los puntos del gráfico. Haz clic para ver el registro diario.",
         "heatmap.chart.total": "Total: {0} h / {1} anotaciones",
@@ -240,6 +243,7 @@ var _STRINGS = {
         "heatmap.stats.avg": "Moyenne : {0} min/jour",
         "heatmap.legend.less": "Moins",
         "heatmap.legend.more": "Plus",
+        "heatmap.detail.minutes": "min",
         "heatmap.hint.click": "Survolez une case pour voir le temps. Cliquez pour les détails quotidiens.",
         "heatmap.chart.hint": "Survolez les points du graphique. Cliquez pour voir le journal du jour.",
         "heatmap.chart.total": "Total : {0} h / {1} annotations",
@@ -296,6 +300,7 @@ var _STRINGS = {
         "heatmap.stats.avg": "Média: {0} min/dia",
         "heatmap.legend.less": "Menos",
         "heatmap.legend.more": "Mais",
+        "heatmap.detail.minutes": "min",
         "heatmap.hint.click": "Passe o mouse sobre um quadrado para ver o tempo. Clique para ver detalhes diários.",
         "heatmap.chart.hint": "Passe o mouse sobre os pontos do gráfico. Clique para ver o registro do dia.",
         "heatmap.chart.total": "Total: {0} h / {1} anotações",
@@ -352,6 +357,7 @@ var _STRINGS = {
         "heatmap.stats.avg": "В среднем: {0} мин/день",
         "heatmap.legend.less": "Меньше",
         "heatmap.legend.more": "Больше",
+        "heatmap.detail.minutes": "мин",
         "heatmap.hint.click": "Наведите на квадрат, чтобы увидеть время. Нажмите для деталей.",
         "heatmap.chart.hint": "Наведите на точки графика. Нажмите для просмотра дня.",
         "heatmap.chart.total": "Итого: {0} ч / {1} аннотаций",
@@ -408,6 +414,7 @@ var _STRINGS = {
         "heatmap.stats.avg": "Durchschnitt: {0} min/Tag",
         "heatmap.legend.less": "Weniger",
         "heatmap.legend.more": "Mehr",
+        "heatmap.detail.minutes": "Min",
         "heatmap.hint.click": "Bewege die Maus über ein Kästchen, um die Zeit zu sehen. Klicke für tägliche Details.",
         "heatmap.chart.hint": "Bewege die Maus über Diagrammpunkte. Klicke für das tägliche Leseprotokoll.",
         "heatmap.chart.total": "Gesamt: {0} h / {1} Annotationen",
@@ -464,6 +471,7 @@ var _STRINGS = {
         "heatmap.stats.avg": "平均: {0} 分/日",
         "heatmap.legend.less": "少ない",
         "heatmap.legend.more": "多い",
+        "heatmap.detail.minutes": "分",
         "heatmap.hint.click": "マウスをごせると読書時間が見えます。クリックで日別詳細を表示。",
         "heatmap.chart.hint": "グラフのポイントをホバーで詳細表示。クリックで日別読書ログを表示。",
         "heatmap.chart.total": "合計: {0} 時間 / {1} 注釈",
@@ -520,6 +528,7 @@ var _STRINGS = {
         "heatmap.stats.avg": "المتوسط: {0} دقيقة/يوم",
         "heatmap.legend.less": "أقل",
         "heatmap.legend.more": "أكثر",
+        "heatmap.detail.minutes": "دقيقة",
         "heatmap.hint.click": "تمرير فوق المربع لعرض وقت القراءة. اضغط لعرض التفاصيل اليومية.",
         "heatmap.chart.hint": "تمرير فوق نقاط الرسم البياني. اضغط لعرض سجل القراءة اليومي.",
         "heatmap.chart.total": "الإجمالي: {0} ساعة / {1} تعليق",
@@ -576,6 +585,7 @@ var _STRINGS = {
         "heatmap.stats.avg": "औसत: {0} मिन/दिन",
         "heatmap.legend.less": "कम",
         "heatmap.legend.more": "ज्यादा",
+        "heatmap.detail.minutes": "मिनट",
         "heatmap.hint.click": "समय देखने के लिए वर्ग पर हॉवर करें। दैनिक विवरण के लिए क्लिक करें।",
         "heatmap.chart.hint": "ग्राफ बिंदुओं पर हॉवर करें। दैनिक लॉग देखने के लिए क्लिक करें।",
         "heatmap.chart.total": "कुल: {0} घंटे / {1} एनोटेशन",
