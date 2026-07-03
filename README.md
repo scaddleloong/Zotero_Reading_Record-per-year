@@ -8,8 +8,6 @@ Zotero plugin for automatic reading time tracking, heatmap visualization, daily 
 
 - Zotero **9.0.4** (tested)
 
-  <img width="664" height="372" alt="image" src="https://github.com/user-attachments/assets/fbc8e2f2-0ebf-4d96-9515-e1d6f65bb256" />
-
 - Other versions: unverified
 
 ---
@@ -77,6 +75,9 @@ Zotero plugin for automatic reading time tracking, heatmap visualization, daily 
 <img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/b0bd5747-4a7f-4b1e-a8c2-9be2b85c3101" />
 
 <img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/9d1e1164-824a-4294-bed3-51080643e313" />
+
+<img width="1913" height="812" alt="image" src="https://github.com/user-attachments/assets/a33f1f36-d145-4d72-b71e-5efea49a8598" />
+
 
 ---
 
