@@ -6,9 +6,13 @@ Zotero plugin for automatic reading time tracking, heatmap visualization, daily 
 
 ## Compatibility
 
-- Zotero **9.0.4** (tested)
+- Zotero **10.0.1** (tested, V1.4+)
+
+- Zotero **9.0.4** (tested, V1.3 and earlier)
 
 - Other versions: unverified
+
+> Note: the plugin no longer declares a `strict_max_version`, so it stays enabled across Zotero major-version upgrades (Zotero 7 introduced this behaviour).
 
 ---
 

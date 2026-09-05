@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Reading Tracker V1.4",
+  "version": "1.4",
+  "description": "Zotero Reading Tracker — reading time, heatmap, AI paper analysis & PDF AI Q&A",
+  "icons": {
+    "32": "icon.svg",
+    "48": "icon.svg"
+  },
+  "applications": {
+    "zotero": {
+      "id": "reading-tracker@scaddleloong",
+      "strict_min_version": "9.0",
+      "strict_max_version": "10.*",
+      "update_url": "https://localhost/"
+    }
+  }
+}
